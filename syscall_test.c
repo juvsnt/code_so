@@ -1,3 +1,5 @@
+/*um exemplo de como usar a função ReadFile para ler dados de um arquivo*/
+
 #include <windows.h>
 #include <stdio.h>
 

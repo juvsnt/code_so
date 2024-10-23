@@ -1,3 +1,9 @@
+/*copia o conteúdo de um arquivo de origem para um arquivo de destino, usando a API POSIX. Este programa irá solicitar 
+ao usuário os nomes dos arquivos de origem e destino, e incluirá verificação de erros para assegurar que o arquivo de 
+origem exista e que os dados sejam copiados corretamente.
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 

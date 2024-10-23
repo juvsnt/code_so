@@ -1,3 +1,6 @@
+/*programa batch simples em linguagem C que executa uma série de operações, 
+como criação de arquivos e escrita de dados nesses arquivos.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

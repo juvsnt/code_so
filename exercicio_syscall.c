@@ -1,3 +1,11 @@
+/*
+Programa em C que realiza as seguintes operações utilizando chamadas de sistema:
+-Cria um arquivo.
+-Escreve uma mensagem nesse arquivo.
+-Lê o conteúdo do arquivo e o exibe na tela.
+-Fecha o arquivo.
+*/
+
 #include <windows.h>
 #include <stdio.h>
 
