@@ -1,3 +1,10 @@
+/* Neste código de exemplo, estamos simulando uma padaria, onde o padeiro (produtor) faz pães
+continuamente, coloca pães na prateleira e espera quando a prateleira está cheia.
+Já o cliente (consumidor) compra pães da prateleira e espera quando não há pães disponíveis.
+A prateleira tem capacidade máxima de 5 pães e é compartilhada entre padeiro e cliente.
+A sincronização usa apenas um mutex para controle de acesso e evita que padeiro e cliente
+acessem a prateleira ao mesmo tempo*/
+
 #include <windows.h>
 #include <stdio.h>
 
