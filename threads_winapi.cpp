@@ -1,3 +1,5 @@
+/*Utilização de biblioteca específica para Threads no Windows (WinAPI)*/
+
 #include <iostream>
 #include <windows.h> // Biblioteca para threads no Windows
 
