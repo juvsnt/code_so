@@ -1,5 +1,3 @@
-/*Versão para Windows*/
-
 #include <iostream>
 #include <thread> // Biblioteca para threads
 #include <chrono> // Para simular atrasos
