@@ -1,0 +1,9 @@
+=== RELATORIO DA BIBLIOTECA DIGITAL ===
+
+Total de livros: 1
+Livros disponiveis: 0
+Livros emprestados: 1
+Taxa de ocupacao: 100.0%
+
+=== DETALHES DOS LIVROS ===
+ID: 1 | Fundamentos de Sistemas Operacionais | Silberschatz | 

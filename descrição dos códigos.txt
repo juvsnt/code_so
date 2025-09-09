@@ -1,0 +1,13 @@
+batch.c = programa batch simples em linguagem C que executa uma série de operações, 
+como criação de arquivos e escrita de dados nesses arquivos.
+
+copiafile.c = copia o conteúdo de um arquivo de origem para um arquivo de destino, usando a API POSIX. Este programa irá solicitar ao usuário os nomes dos arquivos de origem e destino, e incluirá verificação de erros para assegurar que o arquivo de origem exista e que os dados sejam copiados corretamente.
+
+syscall_test.c = um exemplo de como usar a função ReadFile para ler dados de um arquivo
+
+exercicio_syscall.c = Programa em C que realiza as seguintes operações utilizando chamadas de sistema:
+-Cria um arquivo.
+-Escreve uma mensagem nesse arquivo.
+-Lê o conteúdo do arquivo e o exibe na tela.
+-Fecha o arquivo.
+

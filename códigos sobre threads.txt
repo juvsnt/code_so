@@ -1,0 +1,9 @@
+10962
+Vídeo explicando como atualizar para o MinGW64 – link
+Código tarefasthreads.cpp – link
+
+Para compilar o código:
+g++ -std=c++11 -o tarefasthreads tarefasthreads.cpp –lpthread
+
+Para executar o Código: 
+$ ./tarefasthreads

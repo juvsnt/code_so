@@ -1,0 +1,2 @@
+Hoje foi um bom dia!
+Pratiquei sobre SysCalls e streams em C++
