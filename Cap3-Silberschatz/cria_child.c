@@ -1,4 +1,4 @@
-/*Neste código de exemplo, O processo pai apenas cria o filho, espera ele terminar e então exibe a mensagem. 
+/*Neste código de exemplo (slide 21), O processo pai apenas cria o filho, espera ele terminar e então exibe a mensagem. 
 O processo filho executa o comando "dir" e termina. Assim, tudo o que acontece dentro do comando "dir" é feito pelo processo filho, 
 e o resto é pelo pai
 O comando CreateProcess cria um novo processo. O processo filho executa o comando cmd.exe /c dir 
@@ -37,7 +37,7 @@ int main() {
     WaitForSingleObject(pi.hProcess, INFINITE);
 
     // Exibe mensagem após a conclusão do processo filho
-    printf("Filho Completou Execução\n");
+    printf("Filho Completou Execucao\n");
 
     // Fecha os handles do processo e thread
     CloseHandle(pi.hProcess);

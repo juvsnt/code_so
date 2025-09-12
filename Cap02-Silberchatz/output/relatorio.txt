@@ -6,4 +6,4 @@ Livros emprestados: 1
 Taxa de ocupacao: 100.0%
 
 === DETALHES DOS LIVROS ===
-ID: 1 | Fundamentos de Sistemas Operacionais | Silberschatz | 
+ID: 1 | Fundamentos de Sistemas Operacionais | Silberschatz | Emprestado

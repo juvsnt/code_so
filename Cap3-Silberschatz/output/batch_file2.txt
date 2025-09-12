@@ -1,0 +1,2 @@
+Conteúdo inicial do arquivo batch_file2.txt
+Conteudo do batch_file2
