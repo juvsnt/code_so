@@ -1,3 +1,15 @@
+// Exemplo de uso avançado de threads em C++ no Windows.
+// O programa cria 12 threads, cada uma associada a um núcleo lógico da CPU,
+// utilizando a função SetThreadAffinityMask para fixar a afinidade da thread.
+// Cada thread imprime mensagens indicando em qual núcleo está rodando,
+// simulando processamento com pausas (sleep_for).
+// O main aguarda todas as threads terminarem antes de encerrar.
+// Esse exemplo demonstra conceitos de:
+//   - Programação concorrente
+//   - Afinidade de threads com núcleos específicos
+//   - Uso de recursos da API do Windows para controle de execução.
+
+
 #include <iostream>
 #include <thread>
 #include <chrono>

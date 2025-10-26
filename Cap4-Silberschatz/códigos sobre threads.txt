@@ -7,3 +7,4 @@ g++ -std=c++11 -o tarefasthreads tarefasthreads.cpp –lpthread
 
 Para executar o Código: 
 $ ./tarefasthreads
+
