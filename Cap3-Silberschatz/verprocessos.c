@@ -1,3 +1,10 @@
+/*
+Lista todos os processos em execução no sistema Windows utilizando
+CreateToolhelp32Snapshot e Process32First/Process32Next, exibindo para cada
+processo o nome do executável, o PID, o número de threads e o PID do
+processo pai.
+*/
+
 #include <stdio.h>
 #include <windows.h>
 #include <tlhelp32.h>

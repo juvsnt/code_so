@@ -1,3 +1,10 @@
+/*
+Compara o tempo de processamento de um vetor grande (simulando pixels de
+uma imagem) executado de forma sequencial (uma única thread) versus
+paralela (duas threads, cada uma processando metade do vetor). Demonstra
+o ganho de desempenho obtido com paralelismo usando std::thread.
+*/
+
 #include <iostream>
 #include <vector>
 #include <thread>

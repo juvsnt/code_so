@@ -1,3 +1,11 @@
+/*
+Implementa o algoritmo de Peterson para exclusão mútua entre duas threads,
+utilizando variáveis atômicas (flag e turn) para coordenar o acesso a uma
+região crítica simulada. Cada thread alterna entre seção crítica e seção
+restante, demonstrando sincronização por software sem uso de mutexes do
+sistema operacional.
+*/
+
 #include <iostream>
 #include <thread>
 #include <atomic>

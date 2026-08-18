@@ -1,3 +1,10 @@
+/*
+Simula o atendimento de requisições de um servidor web, comparando o tempo
+total gasto para atender dois "clientes" de forma sequencial versus em
+paralelo (usando duas threads). Demonstra como a concorrência reduz o
+tempo total de resposta em tarefas independentes.
+*/
+
 #include <iostream>
 #include <thread>
 #include <chrono>

@@ -1,3 +1,11 @@
+/*
+Implementa o problema clássico produtor-consumidor com um buffer de apenas
+1 posição, utilizando std::mutex e duas std::condition_variable (uma para
+sinalizar "buffer cheio" e outra para "buffer vazio") para sincronizar as
+threads produtora e consumidora. Demonstra o uso de variáveis de condição
+em C++ para evitar espera ocupada (busy waiting).
+*/
+
 #include <iostream>             // Para std::cout
 #include <thread>               // Para std::thread, std::this_thread::sleep_for
 #include <mutex>                // Para std::mutex, std::unique_lock

@@ -1,3 +1,11 @@
+/*
+Programa em C (Linux/POSIX) que instala tratadores de sinal para SIGINT
+(Ctrl+C) e SIGTSTP (Ctrl+Z) e executa um laço infinito imprimindo uma
+mensagem a cada segundo. Demonstra como o sistema operacional desvia o
+fluxo de execução para uma rotina de tratamento de interrupção (signal
+handler) quando um desses sinais é recebido.
+*/
+
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>

@@ -1,3 +1,11 @@
+/*
+Cria quatro processos filhos (child.exe) via CreateProcess, exibindo o PID
+de cada filho criado, e ao final consulta e imprime o PID e o PPID (PID do
+processo pai) do próprio processo usando CreateToolhelp32Snapshot. Demonstra
+a criação de múltiplos processos filhos e a navegação pela hierarquia de
+processos no Windows.
+*/
+
 #include <windows.h>
 #include <stdio.h>
 #include <tlhelp32.h> // Para usar CreateToolhelp32Snapshot e PROCESSENTRY32

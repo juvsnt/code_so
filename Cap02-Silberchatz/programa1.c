@@ -1,3 +1,10 @@
+/*
+Cria um processo filho (child.exe) via CreateProcess, aguarda seu término com
+WaitForSingleObject e, em seguida, altera uma variável global no processo pai.
+Demonstra que processo pai e processo filho possuem espaços de memória
+independentes (a alteração feita pelo pai não é vista pelo filho, e vice-versa).
+*/
+
 #include <windows.h>
 #include <stdio.h>
 

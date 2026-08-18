@@ -1,3 +1,12 @@
+/*
+O mesmo executável atua como processo pai e como processo filho: quando
+executado sem argumentos, cria uma nova instância de si mesmo passando o
+argumento "child" (self-exec); quando recebe esse argumento, assume o papel
+de filho, altera e imprime sua própria cópia da variável global. Demonstra
+o padrão de auto-invocação para diferenciar o comportamento de pai e filho
+em um único programa.
+*/
+
 #include <windows.h>
 #include <stdio.h>
 

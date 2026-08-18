@@ -1,3 +1,12 @@
+/*
+Simula, de forma simplificada, a estrutura de um módulo de kernel Linux
+(como os carregados via insmod/rmmod), definindo funções de inicialização
+(simple_init) e remoção (simple_exit) do módulo por meio de macros que
+imitam module_init/module_exit. Serve como exemplo didático da interface
+de módulos do kernel, embora compile e execute como um programa comum em
+espaço de usuário.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,9 @@
+/*
+Cria três processos filhos (child.exe) via CreateProcess, exibindo para cada
+um o PID recém-criado e o PID do processo pai (o processo atual) logo após a
+criação. Demonstra a relação de parentesco entre processo pai e filhos.
+*/
+
 #include <windows.h>
 #include <stdio.h>
 #include <tlhelp32.h> // Para usar CreateToolhelp32Snapshot e PROCESSENTRY32
